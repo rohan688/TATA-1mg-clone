@@ -41,3 +41,17 @@ body{
     font-size: 30px;
     color: dimgray;
 }
+@media only screen and (min-width:375px) and (max-width:1000px){
+    .main_slider{
+        display: block;
+    }
+    .slider{
+        width: 100%;
+    }
+    .fixed_img{
+        width: 100%;
+    }
+    #below_slider_p{
+        font-size: 20px;
+    }
+}
